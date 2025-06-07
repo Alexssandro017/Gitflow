@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Autos Premium</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        form {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #555;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Autos Premium</h1>
+        <p>Los mejores vehículos al mejor precio</p>
+    </header>
+
+    <div class="container">
+        <h2>Contacto</h2>
+        <p>Complete el siguiente formulario para consultas sobre nuestros vehículos:</p>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono">
+            </div>
+            
+            <div class="form-group">
+                <label for="interes">Auto de interés (opcional):</label>
+                <input type="text" id="interes" name="interes">
+            </div>
+            
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit">Enviar Consulta</button>
+        </form>
+        
+        <h3>Otras formas de contacto</h3>
+        <p><strong>Teléfono:</strong> +1 234 567 890</p>
+        <p><strong>Email:</strong> info@autospremium.com</p>
+        <p><strong>Dirección:</strong> Av. Principal 1234, Ciudad Autos</p>
+        <p><strong>Horario de atención:</strong> Lunes a Viernes de 9:00 a 18:00</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Autos Premium. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
